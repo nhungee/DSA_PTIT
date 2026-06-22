@@ -1,0 +1,81 @@
+# ===== Compiled binaries =====
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# ===== Debug files =====
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.map
+*.stackdump
+
+# ===== Precompiled headers =====
+*.gch
+*.pch
+
+# ===== Build directories =====
+build/
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# ===== CMake =====
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# ===== Visual Studio =====
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.iml
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== CLion / JetBrains =====
+.idea/
+cmake-build-*/
+
+# ===== Code::Blocks =====
+*.cbp
+*.layout
+*.depend
+
+# ===== Dev-C++ =====
+*.dev
+
+# ===== Logs & temp =====
+*.log
+*.tmp
+*.swp
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
